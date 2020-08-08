@@ -9,157 +9,269 @@ class Input extends Component {
     super(props);
     this.state = {
       inputData: {
-        TurnOver: {
+        TurnOvery1: {
           value: "",
           label: "TurnOver",
           elementConf: {
             type: "TurnOver",
-            placeholder: "TurnOver...",
+            placeholder: "TurnOver...year1",
           },
-          valid: false,
           errorStatus: false,
           error: "TurnOver is required",
         },
-        Deprication: {
+        TurnOvery2: {
+          value: "",
+          elementConf: {
+            type: "TurnOver",
+            placeholder: "TurnOver...year1",
+          },
+          errorStatus: false,
+          error: "TurnOver is required",
+        },
+        Depricationy1: {
           label: "Deprication",
           elementConf: {
             type: "Deprication",
             placeholder: "Deprication...",
           },
           value: "",
-          valid: false,
           errorStatus: false,
           error: "Deprication is required",
         },
-        BadDebits: {
+        Depricationy2: {
+          elementConf: {
+            type: "Deprication",
+            placeholder: "Deprication...",
+          },
+          value: "",
+          errorStatus: false,
+          error: "Deprication is required",
+        },
+        BadDebitsy1: {
           label: "Bad Debits",
           elementConf: {
             type: "BadDebits",
             placeholder: "Bad Debits...",
           },
           value: "",
-          valid: false,
           errorStatus: false,
           error: "Bad Debits is required",
         },
-        Intrest: {
+        BadDebitsy2: {
+          elementConf: {
+            type: "BadDebits",
+            placeholder: "Bad Debits...",
+          },
+          value: "",
+          errorStatus: false,
+          error: "Bad Debits is required",
+        },
+        Intresty1: {
           label: "Intrest",
           elementConf: {
             type: "Intrest",
             placeholder: "Intrest...",
           },
           value: "",
-          valid: false,
           errorStatus: false,
           error: "Intrest is required",
         },
-        Management: {
+        Intresty2: {
+          elementConf: {
+            type: "Intrest",
+            placeholder: "Intrest...",
+          },
+          value: "",
+          errorStatus: false,
+          error: "Intrest is required",
+        },
+        Managementy1: {
           label: "Management",
           elementConf: {
             type: "Management",
             placeholder: "Management...",
           },
           value: "",
-          valid: false,
           errorStatus: false,
           error: "Management is required",
         },
-        TaxPaid: {
+        Managementy2: {
+          elementConf: {
+            type: "Management",
+            placeholder: "Management...",
+          },
+          value: "",
+          errorStatus: false,
+          error: "Management is required",
+        },
+        TaxPaidy1: {
           label: "Tax Paid",
           elementConf: {
             type: "TaxPaid",
             placeholder: "Tax Paid...",
           },
           value: "",
-          valid: false,
           errorStatus: false,
           error: "Tax Paid is required",
         },
-        Equity: {
+        TaxPaidy2: {
+          elementConf: {
+            type: "TaxPaid",
+            placeholder: "Tax Paid...",
+          },
+          value: "",
+          errorStatus: false,
+          error: "Tax Paid is required",
+        },
+        Equityy1: {
           label: "Total equity in business",
           elementConf: {
             type: "Equity",
             placeholder: "Total equity...",
           },
           value: "",
-          valid: false,
           errorStatus: false,
           error: "Total equity is required",
         },
-        LoanOut: {
+        Equityy2: {
+          elementConf: {
+            type: "Equity",
+            placeholder: "Total equity...",
+          },
+          value: "",
+          errorStatus: false,
+          error: "Total equity is required",
+        },
+        LoanOuty1: {
           label: "Loan Outstanding",
           elementConf: {
             type: "LoanOut",
             placeholder: "Loan Outstanding...",
           },
           value: "",
-          valid: false,
           errorStatus: false,
           error: "Loan Outstanding is required",
         },
-        PromoterLoan: {
+        LoanOuty2: {
+          elementConf: {
+            type: "LoanOut",
+            placeholder: "Loan Outstanding...",
+          },
+          value: "",
+          errorStatus: false,
+          error: "Loan Outstanding is required",
+        },
+        PromoterLoany1: {
           label: "Loan from promoters",
           elementConf: {
             type: "PromoterLoan",
             placeholder: "Loan from promoters...",
           },
           value: "",
-          valid: false,
           errorStatus: false,
           error: "Loan from promoters is required",
         },
-        Inventory: {
+        PromoterLoany2: {
+          elementConf: {
+            type: "PromoterLoan",
+            placeholder: "Loan from promoters...",
+          },
+          value: "",
+          errorStatus: false,
+          error: "Loan from promoters is required",
+        },
+        Inventoryy1: {
           label: "Inventory",
           elementConf: {
             type: "Inventory",
             placeholder: "Inventory...",
           },
           value: "",
-          valid: false,
           errorStatus: false,
           error: "Inventory is required",
         },
-        Debtors: {
+        Inventoryy2: {
+          elementConf: {
+            type: "Inventory",
+            placeholder: "Inventory...",
+          },
+          value: "",
+          errorStatus: false,
+          error: "Inventory is required",
+        },
+        Debtorsy1: {
           label: "Debtors",
           elementConf: {
             type: "Debtors",
             placeholder: "Debtors...",
           },
           value: "",
-          valid: false,
           errorStatus: false,
           error: "Debtors is required",
         },
-        Creditors: {
+        Debtorsy2: {
+          elementConf: {
+            type: "Debtors",
+            placeholder: "Debtors...",
+          },
+          value: "",
+          errorStatus: false,
+          error: "Debtors is required",
+        },
+        Creditorsy1: {
           label: "Creditors",
           elementConf: {
             type: "Creditors",
             placeholder: "Creditors...",
           },
           value: "",
-          valid: false,
           errorStatus: false,
           error: "Creditors is required",
         },
-        ITRFilingDate: {
+        Creditorsy2: {
+          elementConf: {
+            type: "Creditors",
+            placeholder: "Creditors...",
+          },
+          value: "",
+          errorStatus: false,
+          error: "Creditors is required",
+        },
+        ITRFilingDatey1: {
           label: "ITR Filing Date",
           elementConf: {
             type: "ITRFilingDate",
             placeholder: "ITR Filing Date...",
           },
           value: "",
-          valid: false,
           errorStatus: false,
           error: "ITR Filing Date is required",
         },
-        Aggriculture: {
+        ITRFilingDatey2: {
+          elementConf: {
+            type: "ITRFilingDate",
+            placeholder: "ITR Filing Date...",
+          },
+          value: "",
+          errorStatus: false,
+          error: "ITR Filing Date is required",
+        },
+        Agriculturey1: {
           label: "AgricultureRental",
           elementConf: {
             type: "Agriculture",
             placeholder: "AgricultureRental...",
           },
           value: "",
-          valid: false,
+          errorStatus: false,
+          error: "AgricultureRental is required",
+        },
+        Agriculturey2: {
+          elementConf: {
+            type: "Agriculture",
+            placeholder: "AgricultureRental...",
+          },
+          value: "",
           errorStatus: false,
           error: "AgricultureRental is required",
         },
@@ -167,7 +279,6 @@ class Input extends Component {
     };
   }
 
- 
   //on input change
   onchangeHandel = (e, item) => {
     e.preventDefault();
@@ -214,8 +325,8 @@ class Input extends Component {
   resetForm = (e, item) => {
     e.preventDefault();
     console.log(e);
-
   }
+
   render() {
     const formElementArray = [];
     for (let key in this.state.inputData) {
@@ -244,27 +355,13 @@ class Input extends Component {
                       {this.state.inputData[item.id].error}
                     </p>
                   ) : null}
-
-                <Ifield
-                  name={item.config.name}
-                  value={item.config.value}
-                  onblurHandel={(event) => this.onblurHandel(event, item.id)}
-                  onchangeHandel={(event) =>
-                    this.onchangeHandel(event, item.id)
-                  }
-                />
-                {this.state.inputData[item.id].errorStatus ? (
-                  <p className="errors">
-                    {this.state.inputData[item.id].error}
-                  </p>
-                ) : null}
               </div>
             );
           })}
           <footer>
             <Button type="submit" value="Save Document" />
             <Link to='/Save draft' className="styled-btn">Save draft</Link>
-            <Button type="file" value="Upload Document" />
+            <Button type="submit" value="Submit Document" />
             <Button type="reset" value="Reset"/>  
           </footer>
         </form>

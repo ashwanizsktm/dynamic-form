@@ -8,7 +8,7 @@ const Ifield = (props) => {
         name={ props.name } 
         onBlur={ props.onblurHandel } 
         onChange={ props.onchangeHandel }
-        onSubmit={ props.formSubmission }
+        onSubmitForm={ props.formSubmission }
         type={ props.type } 
     />
     </>
