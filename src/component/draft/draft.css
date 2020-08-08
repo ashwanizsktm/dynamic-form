@@ -1,0 +1,8 @@
+.draft-wrap {
+  color: #000;
+
+}
+
+.draft-wrap>p {
+  padding: 20px 10px;
+}

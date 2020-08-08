@@ -1,0 +1,18 @@
+/* btn color #92D050 */
+header {
+  padding         : 20px;
+  background-color: #07A8F0;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.header-list {
+  display        : flex;
+  justify-content: space-around;
+  margin         : 0 5px;
+}
+
+.header-list-item{
+  background-color: midnightblue;
+  padding: 9px 46px;
+}

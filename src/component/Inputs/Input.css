@@ -1,0 +1,17 @@
+.styled-form {
+  flex-grow: 1;
+  text-align: right;
+  padding: 20px 0;
+}
+.errors{
+  color: brown;
+  position: absolute;
+  font-size: 12px;
+  top: 89%;
+  right: 10px;
+}
+
+.inputBlock{
+  margin-bottom: 10px;
+  position: relative;
+}

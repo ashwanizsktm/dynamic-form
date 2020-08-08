@@ -1,0 +1,14 @@
+.styled-label{
+  font-size: 15px;
+  color: #000;
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+}
+
+@media only screen and (max-width:769px) {
+  .styled-label{
+    width: 20%;
+    text-align: left;
+  }
+}

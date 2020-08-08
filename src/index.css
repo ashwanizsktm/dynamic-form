@@ -1,0 +1,168 @@
+* {
+  padding    : 0;
+  margin     : 0;
+  box-sizing : border-box;
+  list-style : none;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #d2dbdb;
+}
+
+.global-wrap {
+  padding  : 20px;
+  width    : 100%;
+  max-width: 1200px;
+  margin   : 0 auto;
+}
+
+.common-blocks {
+  display: flex;
+}
+
+.common-blocks>.blocks-wrap>.blocks:nth-child(1) {
+background-color: #29B6BF;
+}
+.common-blocks>.blocks-wrap>.blocks:nth-child(2){
+background-color: #071931;
+}
+.common-blocks>.blocks-wrap>.blocks:nth-child(3) {
+  height: 200px;
+  background-color: #412750; 
+}
+
+.last-block {
+  height: 200px;
+}
+
+footer {
+  margin: 10px;
+  padding        : 20px;
+  background     : #d2dbdb;
+  box-shadow     : 0 2px 3px #333;
+  display        : flex;
+  justify-content: space-around;
+}
+
+/*
+.heading_style {
+  color         : maroon;
+  text-transform: capitalize;
+  text-align    : center;
+  text-shadow   : 0 2px 4px #ffe9c5;
+  background    : #fff;
+  padding       : 30px 0;
+}
+
+.card-wrapper {
+  display  : flex;
+  flex-wrap: wrap;
+  height   : auto;
+}
+
+.cards {
+  margin: 0 20px;
+}
+
+.card {
+  width           : 280px;
+  margin          : 6%;
+  transition      : all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: #fff;
+  border-radius   : 12px;
+  box-shadow      : 0 13px 10px -7px rgba(0, 0, 0, 0.1);
+
+}
+
+.card:hover {
+  box-shadow: 0 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform : scale(1.05, 1.05);
+}
+
+.card__img {
+  width                  : 100%;
+  height                 : 235px;
+  border-top-left-radius : 12px;
+  border-top-right-radius: 12px;
+}
+
+.card__info {
+  background-color          : #fff;
+  border-bottom-left-radius : 12px;
+  border-bottom-right-radius: 12px;
+  padding                   : 16px 24px 24px 24px;
+}
+
+.card__category {
+  text-transform: uppercase;
+  font-size     : 14px;
+  letter-spacing: 2px;
+  font-weight   : 500;
+}
+
+.card__title {
+  margin-top      : 5px;
+  margin-bottom   : 10px;
+  background-color: #fff;
+  text-transform  : capitalize;
+}
+
+button {
+  padding         : 5px 8px;
+  text-transform  : uppercase;
+  font-size       : 14px;
+  letter-spacing  : 2px;
+  font-weight     : 500;
+  color           : #868686;
+  background-color: #fff;
+  border          : 1px solid #000;
+  outline         : none;
+  cursor          : pointer;
+  transition      : all .5s ease-in-out;
+}
+
+button:hover {
+  background-color: #000;
+  color           : #fff;
+}
+
+
+/* Start Slot 
+.slot_machine{
+  border: 1px solid #000;
+  box-shadow: 0 2px 3px 4px  #333;
+  width     : 350px;
+   
+  margin    : 0 auto;
+}
+
+.slot_inner {
+ 
+  padding: 20px;
+  text-align: center;
+
+}
+
+.matching {
+  background: mediumpurple;
+}
+
+.not-matching{
+  background-color: mediumvioletred;
+}
+
+.slot_title {
+  font-size: 18px;
+  color    : maroon;
+}
+*/
+/* End Slot
+@media only screen and (max-width: 768.5px) {
+  .card-wrapper {
+    flex-direction: column;
+    flex-wrap     : unset;
+    align-items   : center;
+  }
+}
+ */
